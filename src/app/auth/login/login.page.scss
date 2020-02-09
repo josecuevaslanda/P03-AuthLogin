@@ -1,0 +1,34 @@
+ion-content {
+    --background:  
+    linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+    ),
+    url('/assets/background/night.jfif') center center /cover;
+}
+
+ion-list {
+    position: relative;
+    margin-top: 100px;
+    background: transparent;
+}
+
+ion-item {
+    --background: transparent;
+    --border-color: rgb(116, 113, 113);
+    --highlight-color-invalid: yellow; 
+    --highlight-color-valid: white; 
+    color: white;
+    width: 90%;
+    left: 5%;
+    //--min-width: 40px;
+}
+
+a {
+    padding-left: 24%;
+    color: white;
+}
+
+:host {
+    --min-height: 39px;
+}
